@@ -266,6 +266,13 @@
         background: var(--primary)
     }
 }
+@media (min-width: 410px) {
+    .response{
+    font-size: 1.9rem;
+    color: #02226e;
+   }
+}
+
 
 .footer-shape::before {
     position: absolute;
