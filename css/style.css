@@ -190,9 +190,25 @@ ul li {
 }
 
 @media (max-width: 991.98px) {
-  .navbar-dark .navbar-nav .nav-link {
+  .navbar-dark .navbar-nav .nav-link{
     margin-left: 0;
     padding: 10px 0;
+    
+    /* display: flex; */
+  }
+  .navbar{
+    flex-wrap: nowrap;
+  }
+  .navbar-collapse{
+    position: absolute;
+    background-color: #040f28;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  .header{
+    position: relative;
+    width: 100vw;
   }
 }
 
