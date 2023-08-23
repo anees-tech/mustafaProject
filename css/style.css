@@ -297,24 +297,11 @@ ul li {
 
 
 
-.dropdown:active > .dropdown-menu,
-.dropend:hover > .dropdown-menu {
-  display: block;
-  margin-top: 0.125em;
-  margin-left: 0.125em;
-}
 
 .dropdownTOGGLEBTN{
   color:#040f28;
-  margin-left: 1.9rem;
 }
 
-
-.dropend:hover > .dropdown-menu {
-  position: absolute;
-  top: 0;
-  left: 100%;
-}
 
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
