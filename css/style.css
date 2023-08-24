@@ -397,7 +397,7 @@ ul li {
 .card-img {
   overflow: hidden;
   width: 340px;
-  height: 280px;
+  height: 275px;
 }
 
 .card-img img {
@@ -417,7 +417,7 @@ ul li {
 .hover-text {
   position: relative;
   padding: 10px;
-  height: 60px;
+  height: 55px;
   width: 350px !important;
   box-sizing: border-box;
   background-color: rgba(3, 7, 36, 0.4);
@@ -444,7 +444,7 @@ ul li {
 }
 
 .container {
-  height: 350px;
+  height: 345px;
 }
 
 .scroll-section {
@@ -471,7 +471,7 @@ ul li {
 }
 
 .container {
-  flex: 0 0 calc(100% / 7);
+  /* flex: 0 0 calc(100% / 7); */
   /* Adjust the width based on the number of cards */
   padding: 15px;
   box-sizing: border-box;
