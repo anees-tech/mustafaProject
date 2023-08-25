@@ -70,11 +70,12 @@
 
 
  <!-- Navbar Start -->
- <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
+ <div class="header container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0" >
   <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0"style="height: 6rem;">
     <a href="index.html" class="navbar-brand response">
       <h1 class="m-0 display-6 text-uppercase text-white">
-        <img src="./img/1.png" alt="" class="text-white me-2 "style="height:6rem; width:6rem;">
+        <img src="./img/1.png" alt="" class="text-white me-2 "  style="height:6rem; width:6rem;">
+        <!-- <img src="img/trace.svg" alt="" style="height: 15%; width: 15%; "> -->
       </h1>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -86,10 +87,10 @@
         <a href="about.html" class="nav-item nav-link" >About</a>
         <a href="service.html" class="nav-item nav-link">Services</a>
         <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Certification</a>
-          <ul class="dropdown-menu m-0">
-            <li class="dropdown-item"> <a href="./pages/iso9001.html" class="dropdown-item ">ISO 9001:2015</a></li>
-            <li class="nav-item dropend">
+          <a href="#" class="nav-link dropdown-toggle active"  data-bs-auto-close="outside" data-bs-toggle="dropdown">Certification</a>
+          <ul class="dropdown-menu">
+            <li class="nav-item"> <a href="./pages/iso9001.html" class="dropdown-item ">ISO 9001:2015</a></li>
+            <li class="dropdown-item dropend">
               <a class=" dropdown-toggle dropdownTOGGLEBTN " href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">  
                 Food Safety
@@ -101,10 +102,9 @@
                 <li><a href="./pages/food.html" class="dropdown-item ">BRC</a></li>
               </ul>
             </li>
-            <li class="dropdown-item"> <a href="./pages/iso45000.html" class="dropdown-item">ISO 45001:2018</a></li>
-            <li class="nav-item dropend">
-              <a class=" dropdown-toggle dropdownTOGGLEBTN " href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+            <li class="nav-item"> <a href="./pages/iso45000.html" class="dropdown-item">ISO 45001:2018</a></li>
+            <li class="dropdown-item dropend">
+              <a class=" dropdown-toggle dropdownTOGGLEBTN " data-bs-auto-close="outside" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Social Compliance
               </a>
               <ul class="dropdown-menu">
@@ -114,20 +114,17 @@
                 <li><a href="./pages/social.html" class="dropdown-item ">WRAP</a></li>
               </ul>
             </li>
-            <li class="dropdown-item"><a href="./pages/ce.html" class="dropdown-item ">CE Marketing</a></li>
-              <li class="dropdown-item"><a href="./pages/iso14001.html" class="dropdown-item ">ISO 14001</a></li>
-              <li class="dropdown-item"><a href="./pages/globalGap.html" class="dropdown-item ">GLOBALGAP</a></li>
-            <li class="dropdown-item"><a href="./pages/iso13485.html" class="dropdown-item ">ISO 13485:2016</a></li>
-            <li class="dropdown-item"><a href="./pages/training.html" class="dropdown-item ">TRAINING</a></li>
+            <li class="nav-item"><a href="./pages/ce.html" class="dropdown-item ">CE Marketing</a></li>
+            <li class="nav-item"><a href="./pages/iso14001.html" class="dropdown-item ">ISO 14001</a></li>
+            <li class="nav-item"><a href="./pages/globalGap.html" class="dropdown-item ">GLOBALGAP</a></li>
+            <li class="nav-item"><a href="./pages/iso13485.html" class="dropdown-item ">ISO 13485:2016</a></li>
+            <li class="nav-item"><a href="./pages/training.html" class="dropdown-item ">TRAINING</a></li>
             
           </ul>
         </div>
         <a href="contact.html" class="nav-item nav-link">Contact</a>
-        <a href="#getAQuote" class="nav-item nav-link btn-blue text-white  text-white px-5 ms-3 d-none d-lg-block"
-          style="height: 6rem;">
-          <p style="color: #fff7f7;text-align: center; ">Get
-            A Quote</p>
-        </a>
+        <a href="#getAQuote" class="nav-item nav-link btn-blue text-white  text-white px-5 ms-3 d-none d-lg-block" style="height: 6rem;"><p style="color: #fff7f7;text-align: center; ">Get
+          A Quote</p></a>
       </div>
     </div>
   </nav>
