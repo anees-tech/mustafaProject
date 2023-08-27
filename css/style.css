@@ -465,7 +465,7 @@ ul li {
   }
 
   100% {
-    transform: translateX(calc(-250px * 10));
+    transform: translateX(calc(-250px * 18));
     /* Adjust the number of cards */
   }
 }
