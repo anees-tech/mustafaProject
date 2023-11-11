@@ -299,6 +299,10 @@ ul li {
   margin-left: -2.5rem;
 } */
 
+#dropdown1{
+  margin-left: -2.5rem;
+}
+
 
 .dropdownTOGGLEBTN{
   color:#040f28;
@@ -359,9 +363,12 @@ ul li {
 }
 
 @media only screen and (max-width: 991px) {
-  .navbar-expand-lg .navbar-nav .dropdown-menu{
+  /* .navbar-expand-lg .navbar-nav .dropdown-menu{
     margin-left: 0;
-  }  
+  }   */
+  #dropdown1{
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 410px) {
   .response {
