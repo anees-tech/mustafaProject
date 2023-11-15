@@ -301,13 +301,6 @@
   </div>
   <!-- About End -->
 
-
-
-
-
-
-
-
   <!-- Services Start -->
   <div class="container-fluid bg-light py-6 px-5">
     <div class="text-center mx-auto mb-5" style="max-width: 600px;">
@@ -843,7 +836,7 @@
                   <textarea id="Message" class="form-control border-0" rows="5" placeholder="Message"></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-blue text-white w-100 py-3" type="submit" onclick="sendMail()">
+                  <button class="btn btn-blue text-white w-100 py-3" type="submit" id="submitButton" onclick="return sendMail()" disabled>
                     Submit Request
                   </button>
                 </div>
