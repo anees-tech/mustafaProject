@@ -66,3 +66,26 @@
     
 })(jQuery);
 
+
+
+
+function sendMail() {
+    var Params = {
+        from_name: document.getElementById("name").value,
+        email_id: document.getElementById("email").value,
+        sending_date: document.getElementById("sendingDate").value,
+        sending_time: document.getElementById("sendingTime").value,
+        message: document.getElementById("Message").value,
+    };
+
+    emailjs.send("service_76ws5tl", "template_9udtz05", Params).then(function(res){
+        alert("Successful! " + res.status);
+    })
+}
+
+// .then(function(res) {
+//     alert("Message sent successfully " + res.status);
+// }, function(error) {
+//     alert("Couldn't send your message at this hour. Try again later. " + error.status);
+// }
+// );

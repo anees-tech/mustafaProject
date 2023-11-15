@@ -30,6 +30,15 @@
 
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("4V7f0kQFoquOuGo8C");
+    })();
+  </script>
+
 </head>
 
 <body>
@@ -809,36 +818,38 @@
         </div>
         <div class="col-lg-8">
           <div class="bg-light text-center p-5">
+            
             <form>
               <div class="row g-3">
                 <div class="col-12 col-sm-6">
-                  <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px" />
+                  <input type="text" id="name" class="form-control border-0" placeholder="Your Name" style="height: 55px" />
                 </div>
                 <div class="col-12 col-sm-6">
-                  <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px" />
+                  <input type="email" id="email" class="form-control border-0" placeholder="Your Email" style="height: 55px" />
                 </div>
                 <div class="col-12 col-sm-6">
                   <div class="date" id="date" data-target-input="nearest">
-                    <input type="text" class="form-control border-0 datetimepicker-input" placeholder="Call Back Date"
+                    <input type="text" id="sendingDate" class="form-control border-0 datetimepicker-input" placeholder="Call Back Date"
                       data-target="#date" data-toggle="datetimepicker" style="height: 55px" />
                   </div>
                 </div>
                 <div class="col-12 col-sm-6">
                   <div class="time" id="time" data-target-input="nearest">
-                    <input type="text" class="form-control border-0 datetimepicker-input" placeholder="Call Back Time"
+                    <input type="text" id="sendingTime" class="form-control border-0 datetimepicker-input" placeholder="Call Back Time"
                       data-target="#time" data-toggle="datetimepicker" style="height: 55px" />
                   </div>
                 </div>
                 <div class="col-12">
-                  <textarea class="form-control border-0" rows="5" placeholder="Message"></textarea>
+                  <textarea id="Message" class="form-control border-0" rows="5" placeholder="Message"></textarea>
                 </div>
                 <div class="col-12">
-                  <button class="btn  btn-blue text-white w-100 py-3" type="submit">
+                  <button class="btn btn-blue text-white w-100 py-3" type="submit" onclick="sendMail()">
                     Submit Request
                   </button>
                 </div>
               </div>
             </form>
+
           </div>
         </div>
       </div>
@@ -943,7 +954,7 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-    <!-- Template Javascript -->
+
     <script src="js/main.js"></script>
 
 </body>
