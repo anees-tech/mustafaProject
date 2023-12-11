@@ -419,6 +419,7 @@ ul li {
   overflow: hidden;
   width: 340px;
   height: 275px;
+  border-radius: 10px;
 }
 
 .card-img img {
@@ -429,9 +430,11 @@ ul li {
 
 .card-img:hover .hover-text {
   visibility: visible;
-  height: 290px;
+  height: 300px;
   width: 350px;
-  bottom: 298px;
+  padding-top: 20px;
+  padding-right: 25px;
+  bottom: 310px;
   opacity: 100;
 }
 
@@ -441,10 +444,10 @@ ul li {
   height: 55px;
   width: 350px !important;
   box-sizing: border-box;
-  background-color: rgba(3, 7, 36, 0.4);
-  bottom: 70px;
-  transition: 0.6s;
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.442);
+  bottom: 15px;
+  transition: 0.4s;
+  backdrop-filter: blur(100px);
 }
 
 .hover-text h3 {
@@ -487,13 +490,10 @@ ul li {
 
   100% {
     transform: translateX(calc(-250px * 18));
-    /* Adjust the number of cards */
   }
 }
 
 .container {
-  /* flex: 0 0 calc(100% / 7); */
-  /* Adjust the width based on the number of cards */
   padding: 15px;
   box-sizing: border-box;
 }
