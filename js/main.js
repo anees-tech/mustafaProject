@@ -168,7 +168,7 @@ function sendMail() {
     };
 
     // Send email using emailjs
-    emailjs.send("service_76ws5tl", "template_9udtz05", Params).then(function(res) {
+    emailjs.send("service_qplb1pm", "template_60ymout", Params).then(function(res) {
         alert("Successful! " + res.status);
 
         // Reset form fields
